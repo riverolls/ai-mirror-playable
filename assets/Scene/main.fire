@@ -1792,15 +1792,15 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        222,
-        600,
+        347.5,
+        637.5,
         0,
         0,
         0,
         0,
         1,
-        1,
-        1,
+        0,
+        0,
         1
       ]
     },
@@ -1929,15 +1929,15 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        347.5,
-        547.5,
+        222,
+        600,
         0,
         0,
         0,
         0,
         1,
-        0,
-        0,
+        1,
+        1,
         1
       ]
     },
@@ -1999,7 +1999,7 @@
     "_alignFlags": 33,
     "_left": 0,
     "_right": 12.5,
-    "_top": 92.5,
+    "_top": 2.5,
     "_bottom": 0,
     "_verticalCenter": 0,
     "_horizontalCenter": 0,

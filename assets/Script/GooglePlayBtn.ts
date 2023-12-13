@@ -14,11 +14,11 @@ export default class GooglePlayBtn extends cc.Component {
   }
   onLandscape() {
     this._widget.enabled = false;
-    this.node.scale = 1.5;
+    // this.node.scale = 1.5;
     this.node.setPosition(this.node.width + 5, 230.0);
   }
   onPortrait() {
-    this.node.scale = 1;
+    // this.node.scale = 1;
     this._widget.top = 10.0;
     this._widget.right = 12.5;
     this._widget.enabled = true;
