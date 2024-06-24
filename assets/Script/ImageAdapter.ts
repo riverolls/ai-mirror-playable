@@ -1,3 +1,5 @@
+import { IEvent } from "./ChannelManager";
+
 const { ccclass, property } = cc._decorator;
 
 @ccclass
@@ -6,6 +8,14 @@ export default class ImageAdapter extends cc.Component {
   img: cc.Sprite = null;
   @property(cc.Node)
   downloadBtn: cc.Node = null;
+
+  onLoad() {
+    this.node.on(cc.Node.EventType.TOUCH_END, this.onClick.bind(this))
+  }
+
+  onClick() {
+    this.node.parent.emit(IEvent.CLICK_DOWNLOAD);
+  }
 
   onLandscape() {
     const maxWidth = 458;
