@@ -15,6 +15,7 @@ export default class ImageAdapter extends cc.Component {
 
   onClick() {
     this.node.parent.emit(IEvent.CLICK_DOWNLOAD);
+    this.node.parent.emit(IEvent.GAME_END)
   }
 
   onLandscape() {
