@@ -1,5 +1,5 @@
-# AIMirror 试玩
-main 分支没有用。
-只有 iOS 和 Android 分支有用，因为按钮不同，所以创建了这两个分支。
-维护迭代都在这两个分支上进行。
-如果需要更换商店跳转链接，务必把 .adapterrc 文件里的链接也修改了，这个文件的链接涉及到unity渠道的跳转。
+<!-- @format -->
+
+# AIMirror 试玩 - 自动播放对比动画
+
+main 分支支持区分 iOS 和 Android，不需要再单独使用 iOS 和 Android 分支。

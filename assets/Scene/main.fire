@@ -468,7 +468,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "a006d072-b6f4-49e4-80df-c7ab01db14a8"
+      "__uuid__": "b13896ee-3bf9-42c1-a64d-be9403dadfc7"
     },
     "_type": 0,
     "_sizeMode": 0,
@@ -1413,7 +1413,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "6cf1c558-302f-43eb-92b5-1484c4e2e22f"
+      "__uuid__": "97353da0-f957-4339-adf0-19391cbf8462"
     },
     "_type": 0,
     "_sizeMode": 0,
@@ -1792,15 +1792,15 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        347.5,
-        637.5,
+        222,
+        600,
         0,
         0,
         0,
         0,
         1,
-        0,
-        0,
+        1,
+        1,
         1
       ]
     },

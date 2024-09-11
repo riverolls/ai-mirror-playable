@@ -1,3 +1,4 @@
+/** @format */
 
 const { ccclass, property } = cc._decorator
 
@@ -7,8 +8,8 @@ export class IEvent {
   static CLICK_DOWNLOAD = "click_download"
 }
 
-export const googlePlayUrl = 'https://play.google.com/store/apps/details?id=com.ai.polyverse.mirror'
-export const appStoreUrl = 'https://apps.apple.com/us/app/aimirror-ai-magic-photo/id6444888896'
+export const googlePlayUrl = "https://play.google.com/store/apps/details?id=com.ai.polyverse.mirror"
+export const appStoreUrl = "https://apps.apple.com/us/app/aimirror-ai-magic-photo/id6444888896"
 
 @ccclass
 export default class ChannelManager extends cc.Component {
@@ -26,12 +27,14 @@ export default class ChannelManager extends cc.Component {
   onGameReady() {
     try {
       console.log("game ready")
+      //@ts-ignore
       window.gameReady && window.gameReady()
     } catch (error) {}
   }
   onGameEnd() {
     try {
       console.log("game end")
+      //@ts-ignore
       window.gameEnd && window.gameEnd()
     } catch (error) {}
   }
@@ -59,6 +62,7 @@ class ChannelUnity {
       if (/android/i.test(userAgent)) {
         url = android
       }
+      //@ts-ignore
       mraid && mraid.open(url)
     } catch (err) {}
   }
@@ -66,6 +70,7 @@ class ChannelUnity {
 class ChannelMintegral {
   static onDownload() {
     try {
+      //@ts-ignore
       window.install && window.install()
     } catch (error) {}
   }
@@ -73,6 +78,7 @@ class ChannelMintegral {
 class ChannelAppLovin {
   static onDownload() {
     try {
+      //@ts-ignore
       mraid && mraid.open?.call(this)
     } catch (error) {}
   }
@@ -80,6 +86,7 @@ class ChannelAppLovin {
 class ChannelTikTok {
   static onDownload() {
     try {
+      //@ts-ignore
       window.openAppStore && window.openAppStore()
     } catch (error) {}
   }
@@ -87,7 +94,8 @@ class ChannelTikTok {
 class ChannelIronSource {
   static onDownload() {
     try {
-      dapi.openStoreUrl()
+      //@ts-ignore
+      dapi && dapi.openStoreUrl()
     } catch (error) {}
   }
 }

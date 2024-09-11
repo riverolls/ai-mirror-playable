@@ -1,5 +1,9 @@
 {
-  "collision-matrix": [[true]],
+  "collision-matrix": [
+    [
+      true
+    ]
+  ],
   "excluded-modules": [
     "Audio",
     "AudioSource",
@@ -37,7 +41,9 @@
     "3D Physics/Builtin",
     "3D Particle"
   ],
-  "group-list": ["default"],
+  "group-list": [
+    "default"
+  ],
   "start-scene": "2d2f792f-a40c-49bb-a189-ed176a246e49",
   "design-resolution-width": 720,
   "design-resolution-height": 1280,
@@ -50,7 +56,7 @@
     "width": 960,
     "height": 640
   },
-  "last-module-event-record-time": 1718960340160,
+  "last-module-event-record-time": 1725964366639,
   "assets-sort-type": "name",
   "facebook": {
     "enable": false,
@@ -64,5 +70,7 @@
   },
   "preview-port": 7456,
   "clear-simulator-cache": true,
-  "migrate-history": ["cloud-function"]
+  "migrate-history": [
+    "cloud-function"
+  ]
 }
